@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amber | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="portfolio-container">
+        
+        <header class="header-section">
+            <div class="header-inner">
+                <h1 class="site-title">PORTFOLIO</h1>
+                <nav>
+                    <ul class="nav-list">
+                        <li><a class="nav-link" href="#about">About</a></li>
+                        <li><a class="nav-link" href="#projects">Projects</a></li>
+                        <li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main-content">
+            
+            <div class="profile-row" id="about">
+                <section class="about-box">
+                    <h2>About Me</h2>
+                    <p>Hi, I am a Cyber Security Student and also love to Produce Music at the sideline. I want to show the world my work and what I can do in the field of cybersecurity and also producing music.</p>
+                </section>
+
+                <div class="avatar-box">
+                    <div class="avatar-image">
+                        <img src="sailoryuna.jfif" alt="Profile Picture" class="profile-photo">
+                    </div>
+                    <span class="avatar-label">Amber</span>
+                </div>
+            </div>
+
+            <!-- PROJECTS GRID -->
+            <section class="projects-section" id="projects">
+                <h2>Projects</h2>
+                <div class="projects-row">
+                    <div class="project-square card">
+                        <span class="project-title">Cyber Security</span>
+                        <a href="#cyber-security" class="btn">View</a>
+                    </div>
+                    <div class="project-square card">
+                        <span class="project-title">Music Production</span>
+                        <a href="#music-production" class="btn">View</a>
+                    </div>
+                    <div class="project-square card">
+                        <span class="project-title">Sample Pack</span>
+                        <a href="#sample-pack" class="btn">View</a>
+                    </div>
+                    <div class="project-square card">
+                        <span class="project-title">Sponsorship</span>
+                        <a href="#sponsorship" class="btn">View</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- DETAILED PROJECT SECTIONS -->
+            <section class="project-details-container">
+                
+                <div id="cyber-security" class="detail-card card">
+                    <h3>Cyber Security Accomplishments</h3>
+                    <ul class="bullet-list">
+                        <li>Conducted threat assessments and network vulnerability scans.</li>
+                        <li>Built and configured secure lab environments for hands-on testing.</li>
+                        <li>Studying protocols for network defense and system protection.</li>
+                    </ul>
+                </div>
+
+                <div id="music-production" class="detail-card card">
+                    <h3>Music Production Accomplishments</h3>
+                    <ul class="bullet-list">
+                        <li>Produced, mixed, and mastered original electronic & instrumental tracks.</li>
+                        <li>Handled complete sound design and audio arrangements.</li>
+                        <li>Managed independent music releases and digital distribution.</li>
+                    </ul>
+                </div>
+
+                <!-- SAMPLE PACK SECTION WITH UPDATED AUDIO TITLES -->
+                <div id="sample-pack" class="detail-card card">
+                    <h3>Sample Pack Releases & Audio Demos</h3>
+                    <p class="section-intro">Listen to original audio samples and loops below:</p>
+                    
+                    <div class="audio-samples-grid">
+                        <div class="audio-item">
+                            <span class="audio-title">🥁 Jerk Samples</span>
+                            <audio controls class="audio-player">
+                                <source src="jerk-samples.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+
+                        <div class="audio-item">
+                            <span class="audio-title">🥁 Trap Samples</span>
+                            <audio controls class="audio-player">
+                                <source src="trap-samples.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+
+                        <div class="audio-item">
+                            <span class="audio-title">🎹 Synths Loops</span>
+                            <audio controls class="audio-player">
+                                <source src="synths-loops.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sponsorship" class="detail-card card">
+                    <h3>Sponsorships & Collaborations</h3>
+                    <ul class="bullet-list">
+                        <li>Partnered with audio/tech communities to promote tools and content.</li>
+                        <li>Collaborated on cross-platform media projects and technical showcases.</li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="contact-section" id="contact">
+                <h2>Contact: <a href="mailto:amber@gmail.com" class="contact-link">amber@gmail.com</a> &bull; (09) 123 1234</h2>
+            </section>
+
+            <div class="split-info-box">
+                <section class="info-column">
+                    <h3>Experience</h3>
+                    <ul class="bullet-list">
+                        <li>Cybersecurity Student studying network defense and still learning.</li>
+                        <li>Independent Music Producer managing mixing, mastering, and sound design tracks.</li>
+                        <li>Created this website to show my work and other stuff.</li>
+                    </ul>
+                </section>
+                
+                <section class="info-column">
+                    <h3>Skills</h3>
+                    <ul class="bullet-list">
+                        <li>Vulnerability Assessment & Threat Analysis</li>
+                        <li>Sound Design & Production</li>
+                        <li>HTML5, CSS3, & Clean Layout Structure</li>
+                    </ul>
+                </section>
+            </div>
+
+        </main>
+        
+    </div>
+    <footer class="site-footer">
+        <p>&copy; 2026 Amber &bull; All Rights Reserved</p>
+    </footer>
+</body>
+</html>
